@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>usb_serial_transport</name>
+  <version>0.1.0</version>
+  <description>Header-only COBS + nanopb serial transport over USB serial links.</description>
+
+  <maintainer email="shrichas@andrew.cmu.edu">You</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>asio_cmake_module</buildtool_depend>
+  <depend>cobs_c</depend>
+  <depend>tl_expected</depend>
+  <depend>asio</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
